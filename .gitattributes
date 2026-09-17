@@ -1,0 +1,7 @@
+# Normalize line endings for all files that Git considers text files.
+* text=auto eol=lf
+
+# Only ship the addons when a download ZIP is built from this repo.
+/**        export-ignore
+/addons    !export-ignore
+/addons/** !export-ignore
